@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    background: #000;
+}
+
+.nav_rigth {
+    float: right;
+}
+
+.nav-item {
+    float: left;
+    list-style: none;
+    margin-right: 50px;
+    padding: auto;
+}
+
+.nav-link:hover {
+    color: rgb(131, 125, 125);
+}
+
+.nav-link,
+.nav-link_left {
+    color: rgb(214, 210, 210);
+    text-decoration: none;
+}
+
+.nav_left {
+    float: left;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.nav-link_left {
+    text-transform: uppercase;
+}
+
+.nav-link_left span {
+    color: dodgerblue;
+}
