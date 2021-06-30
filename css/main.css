@@ -42,3 +42,64 @@ body {
 .nav-link_left span {
     color: dodgerblue;
 }
+
+
+/* ................................................................................................ */
+
+.contant {
+    width: 100%;
+    height: 700px;
+    background-image: url("../images/download.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.readmore p {
+    padding-top: 100px;
+    color: rgb(197, 193, 193);
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+}
+
+.readmore p span {
+    font-size: 25px;
+    color: #fff;
+    opacity: 1.0;
+}
+
+.readmore button {
+    width: 20%;
+    height: 60px;
+    margin-top: 100px;
+    margin-left: 500px;
+    background: #f27f46;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.readmore button:hover {
+    background: #ff7632;
+    color: rgb(0, 0, 0);
+}
+
+
+/* ........................................................................................ */
+
+.con_card {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(20, 22, 32);
+}
+
+.card {
+    width: 30%;
+    height: 500px;
+    background-color: #ff7632;
+}
+
+.card_image {}
