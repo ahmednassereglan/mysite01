@@ -12,7 +12,7 @@
 </head>
 
 <body>
-
+    <div id="nav"></div>
     <div class="navbar">
         <ul class="nav_left">
             <li class="nav-item">
@@ -21,22 +21,26 @@
         </ul>
         <ul class="nav_rigth">
             <li class="nav-item">
-                <a class="nav-link " href="#">Active link</a>
+                <a class="nav-link " href="#nav">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="#">Active link</a>
+                <a class="nav-link " href="#about">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="#">Active link</a>
+                <a class="nav-link " href="#blog">Blog</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link " href="#">Disabled link</a>
+                <a class="nav-link " href="#info">Information</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link " href="#contact">Contact</a>
             </li>
         </ul>
     </div>
 
-    <div class="contant">
+    <div class="contant" id="about">
         <div class="readmore">
             <p>
                 informationCan <span><b>I some information on uni courses?</b></span> detailsPlease send me details of your training courses. directionsJust follow the directions on the label. instructionsHave you read the instructions all the way through?
@@ -45,7 +49,7 @@
             <button>Read More</button>
         </div>
     </div>
-    <div class="blog">
+    <div class="blog" id="blog">
         <div class="con_card">
             <div class="card">
                 <img src="images/download1.jfif" alt="">
@@ -109,7 +113,7 @@
             </div>
         </div>
 
-        <div class="blog_icon">
+        <div class="blog_icon" id="info">
             <div class="icon">
                 <div class="icon_part">
                     <i class="fas fa-balance-scale"></i>
@@ -166,7 +170,7 @@
     </div>
 
     <div class="remove"></div>
-    <div class="contact">
+    <div class="contact" id="contact">
         <div class="contact_form">
 
             <h1>instructions Have label</h1>
@@ -175,7 +179,7 @@
             <form action="" method="post">
                 <input type="text" placeholder="Name">
                 <input type="email" placeholder="Email">
-                <textarea cols="30" rows="10" placeholder="Massage"></textarea>
+                <textarea cols="30" rows="10" placeholder="Massage" maxlength="250"></textarea>
                 <button type="submit">SEND MESSAGE</button>
             </form>
         </div>
@@ -184,7 +188,7 @@
     <div class="remove"></div>
 
     <div class="footer">
-        <h4>instructionsHave you read the instructions all the way through?</h4>
+        <h4> &copy; cobyRigth by Eng.Ahmed Nasser </h4>
         <i class="fab fa-facebook-f"></i>
         <i class="fab fa-twitter"></i>
         <i class="fab fa-google-plus-g"></i>

@@ -6,6 +6,7 @@ body {
     width: 100%;
     height: 60px;
     background: #000;
+    position: fixed;
 }
 
 .nav_rigth {
@@ -218,6 +219,10 @@ body {
     border: 1px solid #ddd;
 }
 
+.contact_form form input:hover {
+    border-left: 3px solid #000;
+}
+
 .contact_form form textarea {
     display: block;
     margin: auto;
@@ -226,6 +231,10 @@ body {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ddd;
+}
+
+.contact_form form textarea:hover {
+    border-left: 3px solid #000;
 }
 
 .contact_form form button {
@@ -238,6 +247,12 @@ body {
     color: #fff;
     border: 1px solid #ddd;
     cursor: pointer;
+}
+
+.contact_form form button:hover {
+    background: #fff;
+    color: #000;
+    border: 1px solid rgb(19, 18, 18);
 }
 
 
@@ -261,7 +276,7 @@ body {
 .footer i {
     border: 1px solid #ddd;
     padding: 10px;
-    border-radius: 40px;
+    border-radius: 50%;
     font-size: 15px;
     margin-bottom: 20px;
     cursor: pointer;
